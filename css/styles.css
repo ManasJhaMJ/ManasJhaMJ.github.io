@@ -110,19 +110,6 @@ ul {
     padding-top: 0.5%;
 }
 
-.fade-in {
-    opacity: 0;
-    animation: fadeIn;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;   
-}
-
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-
 #main:nth-child(2) > .main-img {
     animation-delay: 0.5s;
 }
@@ -216,3 +203,35 @@ tr {
 html.sr .load-hidden {
     visibility: hidden;
 }
+
+.splash {
+    width: 500px;
+    height: 500px;
+}
+
+.elementToFadeInAndOut {
+    padding-top: 10%;
+    text-align: center;
+    position: absolute;
+    background-color: #101110;
+    z-index: 2;
+    animation: fadeinout 2s linear forwards;
+    -webkit-animation: fadeinout 2s linear forwards;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes fadeinout {
+  0% { opacity: 1; }
+  50% {opacity: 1; }
+  75% {opacity: 1; }
+  100% {opacity: 0;visibility: hidden;} 
+}
+
+@media (max-width : 600px) {
+    .splash {
+        width: 350px;
+        height: 350px;
+    }
+}
+
