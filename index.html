@@ -22,33 +22,36 @@
     </head>
 
     <body>
+        <div class="elementToFadeInAndOut">
+            <img class="splash" src="images/logo.png">
+        </div>
 
         <ul class="nav1">  
             <li><a class="header1 active" href="/"><strong><img class="img-small" src="images/logo.png"></strong></a></li>  
             <li class="right"><a href="#">Contact Me</a></li>  
             <li class="right"><a href="#">Projects</a></li>  
             <li class="right"><a href="#">About Me</a></li>  
-          </ul>
+        </ul>
 
     <section id="main">
 
-        <div class="main-img fade-in">
+        <div class="main-img scroll-four">
             <img class="face" src="images/face.png">
         </div>
 
-        <div class="main-name fade-in">
+        <div class="main-name scroll-five">
             <h1 class="name">Manas Jha</h1>
         </div>
 
-        <div class="main-work fade-in">
-            <h4 class="work">Web Developer</h4>
+        <div class="main-work scroll-six">
+            <h4 class="wor">Web Developer</h4>
         </div>
 
-        <div class="main-location fade-in">
+        <div class="main-location scroll-seven">
             <h6 class="location">📍 India</h6>
         </div>
 
-        <div class="main-contact fade-in">
+        <div class="main-contact scroll-seven">
             <a href="https://www.github.com/ManasJhaMJ"><img class="contact-img" src="images/github.png"></a>  
             <a href="https://www.linkedin.com/in/notmanasjha"><img class="contact-img" src="images/linkedin.png"></a><br><br><br><br><br>    
             <a class="main-down" ><img src="images/down.png"></a>                   
@@ -62,18 +65,18 @@
         <div class="about">
             <div class="about-inner">
 
-                <h1 class="heading1">About me</h1>
-                <p class="content1 load-hidden scroll-four">Hello, World! 👋 I'm Manas, a front end web developer with an interest in everything and a life-long dedication to learning. I enjoy creating things that live on the internet and turning problems into beautiful designs. I primarily focus on Html,CSS and javascript.
+                <h1 class="scroll-two">About me</h1>
+                <p class="content1 load-hidden scroll-two">Hello, World! 👋 I'm Manas, a front end web developer with an interest in everything and a life-long dedication to learning. I enjoy creating things that live on the internet and turning problems into beautiful designs. I primarily focus on Html,CSS and javascript.
                 <br><br>
                 While I love front end development and design, I'm also comfortable using back-end tech including Node.js, Express.js and MongoDB. I can also work on developing games on Unity.
                 <br><br>
                 Transitioning to web development has enabled me to continue my passion for learning and embrace my status as a forever student. I love to work as part of a dynamic team and find the challenges that programming brings very exciting!</p>
                 <br><br>
                 
-                <h1 class="heading1">Skills</h1>
-                <p class="content1">Here are a few technologies I've been working with recently:</p>
+                <h1 class="scroll-two">Skills</h1>
+                <p class="scroll-two">Here are a few technologies I've been working with recently:</p>
 
-                <table class="table1">
+                <table class="scroll-two">
                     <tr>
                         <td>Html</td>
                         <td>CSS</td>
@@ -119,7 +122,7 @@
         <p class="text-center">For more up to the minute work, please visit my 
             <a href="https://github.com/ManasJhaMJ">GitHub</a></p>
         <!-- Project 1 -->
-        <div class="load-hidden scroll-two row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="load-hidden scroll-three row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
                 <img src="/images/tastyburger.png" class="d-block mx-lg-auto img-fluid"
                     alt="Tasty Burger Project Image" width="700" height="500" loading="lazy">
@@ -140,7 +143,7 @@
             </div>
         </div>
         <!-- Project 2 -->
-        <div class="load-hidden scroll-three row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="load-hidden scroll-two row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
                 <img src="/images/portfolio.png" class="d-block mx-lg-auto img-fluid" alt="TripReel Project Image"
                     width="700" height="500" loading="lazy">
@@ -160,7 +163,7 @@
             </div>
         </div>
         <!-- Project 3 -->
-        <div class="load-hidden scroll-four row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="load-hidden scroll-two row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
                 <img src="/images/weatherall.png" class="d-block mx-lg-auto img-fluid"
                     alt="Weather Dashboard Project Image" width="700" height="500" loading="lazy">
@@ -205,15 +208,15 @@
     </body>
         
     <script>
-    ScrollReveal().reveal('.heading1',{delay : 1000,easing: 'ease-in'});
-    ScrollReveal().reveal('.content1',{delay : 1000,easing: 'ease-in'});
-    ScrollReveal().reveal('.table1',{delay : 1000,easing: 'ease-in'});
-    ScrollReveal().reveal('.scroll',{delay : 1000,easing: 'ease-in'});
 
     ScrollReveal().reveal('.scroll-one',{delay : 600,easing: 'ease-in'});
     ScrollReveal().reveal('.scroll-two',{delay : 1000,easing: 'ease-in'});
     ScrollReveal().reveal('.scroll-three',{delay : 1500,easing: 'ease-in'});
     ScrollReveal().reveal('.scroll-four',{delay : 2000,easing: 'ease-in'});
+    ScrollReveal().reveal('.scroll-five',{delay : 2500,easing: 'ease-in'});
+    ScrollReveal().reveal('.scroll-six',{delay : 3000,easing: 'ease-in'});
+    ScrollReveal().reveal('.scroll-seven',{delay : 3500,easing: 'ease-in'});
+    ScrollReveal().reveal('.ease-out',{delay : 1000,easing: 'ease-out'});
 
     </script>
 
