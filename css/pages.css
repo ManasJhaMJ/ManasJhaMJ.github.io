@@ -310,6 +310,54 @@ nav {
     padding: 1.5rem 0 0 0;
 }
 
+#contact {
+    margin: 100px 2rem;
+    text-align: center;
+    height: 100%;
+    padding: 15px 0px;
+    color: inherit;
+}
+
+#contact h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 1rem 0 2rem 0;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 4rem 0;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    /* background-image: linear-gradient(to top right, #319795, #48bb78); */
+    background-image: linear-gradient(to top right, rgba(49, 151, 149, 0.4), rgba(72, 187, 120, 0.4));
+    border-radius: 15px;
+    width: 50%;
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+
+.social img {
+    width: 50px;
+    height: auto;
+    padding: 5px 0;
+}
+
+.social a {
+    width: 50%;
+    text-align: left;
+}
+
 footer {
     margin: 170px 0 30px 0;
     text-align: center;
@@ -417,40 +465,17 @@ hr {
 
     #experience {
         margin: 100px 5rem;
-        text-align: center;
-        height: 100%;
-        padding: 15px 0px;
-        color: inherit;
     }
 
     #experience h1 {
         font-size: 3.5rem;
-        font-weight: 700;
-        margin: 0;
-        padding: 1rem 0 2rem 0;
     }
 
-    .exp-container {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-direction: column;
-    }
 
     .exp {
         width: 40%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        margin: 0 0 4rem 0;
-        text-align: left;
     }
 
-    .exp-date {
-        text-align: left;
-        width: 100%;
-    }
 
     .exp-head,
     .bullets {
@@ -488,6 +513,14 @@ hr {
         font-weight: 600;
         margin: 0;
         padding: 1.5rem 0 0 0;
+    }
+
+    #contact h1 {
+        font-size: 3.5rem;
+    }
+
+    .social {
+        width: 10%;
     }
 
     footer {
