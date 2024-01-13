@@ -417,6 +417,7 @@ nav {
 }
 
 .projects img {
+    border-radius: 15px 15px 0 0;
     width: 100%;
     height: auto;
 }
@@ -652,7 +653,7 @@ footer {
         align-items: center;
     }
 
-    #skills hr {
+    hr {
         width: 70%;
         opacity: 0.5;
         margin: 0;
@@ -696,8 +697,47 @@ footer {
         padding: 1.5rem 0 0 0;
     }
 
+    #projects {
+        margin: 100px 5rem;
+        text-align: center;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     footer {
         flex-direction: row;
     }
 
+    @media screen and (min-width: 768px) and (max-width : 1024px) {
+        #home {
+            margin-top: 6rem;
+            flex-direction: column;
+        }
+
+        .home-img,
+        .home-text,
+        .home-text p,
+        .cta-group {
+            width: 100%;
+            height: auto;
+            margin: 0;
+            text-align: center;
+            justify-content: center;
+        }
+
+        #projects {
+            margin: 100px 2rem;
+        }
+
+        .projects {
+            justify-content: center;
+        }
+
+        .card-big {
+            width: 40%;
+            height: auto;
+        }
+    }
 }
