@@ -328,7 +328,6 @@ nav {
 .contact {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
     margin: 0 0 4rem 0;
@@ -336,21 +335,30 @@ nav {
 
 .social {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: auto;
     /* background-image: linear-gradient(to top right, #319795, #48bb78); */
     background-image: linear-gradient(to top right, rgba(49, 151, 149, 0.4), rgba(72, 187, 120, 0.4));
+    backdrop-filter: blur(5px);
+    border: #319795 1px solid;
     border-radius: 15px;
     width: 50%;
     padding: 5px 10px;
     margin: 10px 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.social:hover {
+    transform: translate3d(-5px, -5px, 0);
+    box-shadow: 10px 10px 20px #48bb78;
 }
 
 .social img {
     width: 50px;
     height: auto;
     padding: 5px 0;
+    display: block;
 }
 
 .social a {
