@@ -225,19 +225,72 @@ nav {
 
 .card {
     z-index: 1;
-    width: 40px;
-    height: 40px;
-    padding: 10px;
-    margin: 10px;
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    margin: 0px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(8px);
-    overflow: hidden;
+    border-radius: 5px;
+    background-image: linear-gradient(to top right, rgba(49, 151, 149, 0.4), rgba(72, 187, 120, 0.4));
+    backdrop-filter: blur(5px);
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: #319795 1px solid;
+}
+
+#experience {
+    margin: 100px 2rem;
+    text-align: center;
+    height: 100%;
+    padding: 15px 0px;
+    color: inherit;
+}
+
+#experience h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 1rem 0 2rem 0;
+}
+
+.exp-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.exp {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 0 4rem 0;
+    text-align: left;
+}
+
+.exp-date {
+    text-align: left;
+    width: 100%;
+}
+
+.exp-head,
+.bullets {
+    margin: 0.5rem 1rem;
+    width: 90%;
+}
+
+.bullets {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.bullets p {
+    margin: 0 0 0 1rem;
 }
 
 .work {
@@ -264,6 +317,11 @@ footer {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #48bb78;
 }
 
 .footer-socials {
@@ -355,6 +413,59 @@ footer {
         transition: all 0.2s ease-in-out;
         background-color: white;
         color: black;
+    }
+
+    #experience {
+        margin: 100px 5rem;
+        text-align: center;
+        height: 100%;
+        padding: 15px 0px;
+        color: inherit;
+    }
+
+    #experience h1 {
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin: 0;
+        padding: 1rem 0 2rem 0;
+    }
+
+    .exp-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .exp {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0 0 4rem 0;
+        text-align: left;
+    }
+
+    .exp-date {
+        text-align: left;
+        width: 100%;
+    }
+
+    .exp-head,
+    .bullets {
+        margin: 0.5rem 1rem;
+        width: 90%;
+    }
+
+    .bullets {
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+    }
+
+    hr {
+        width: 50%;
     }
 
     .work-container {
