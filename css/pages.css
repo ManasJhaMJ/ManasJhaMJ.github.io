@@ -255,6 +255,11 @@ nav {
     padding: 1rem 0 2rem 0;
 }
 
+.exp-head img {
+    height: 40px;
+    width: auto;
+}
+
 .exp-container {
     display: flex;
     justify-content: space-evenly;
