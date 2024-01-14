@@ -49,94 +49,114 @@
         <!-- <div class="logo"><img src="./images/profile-pic.gif" alt="profile-pic"> </div> -->
         <div class="extras">
             <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn"></button>
+                <button name="dropdown" onclick="myFunction()" class="dropbtn"></button>
                 <div id="myDropdown" class="dropdown-content">
-                    <a href="../index.html">Home</a>
-                    <a href="../pages/about.html">About</a>
-                    <a href="../pages/experience.html">Experience</a>
-                    <a href="../projects.html">Projects</a>
-                    <a href="../pages/contact.html">Contact</a>
-                    <a href="https://www.manasjha.me/mjresume.pdf" target="_blank">Resume</a>
+                    <a aria-label="ho back to home" href="../index.html">Home</a>
+                    <a aria-label="about me page" href="../pages/about.html">About</a>
+                    <a aria-label="experience" href="../pages/experience.html">Experience</a>
+                    <a aria-label="Projects" href="../projects.html">Projects</a>
+                    <a aria-label="contact me!" href="../pages/contact.html">Contact</a>
+                    <a aria-label="Here is Manas Jha's Resume" href="https://www.manasjha.me/mjresume.pdf"
+                        target="_blank">Resume</a>
                 </div>
             </div>
         </div>
-        <button class="theme" onclick="theme()"><img src="../images/themes.png" alt="theme mode"></button>
+        <button name="theme-color" class="theme" onclick="theme()"><img src="../images/themes.png"
+                alt="theme mode"></button>
     </nav>
     <nav class="nav-pc">
-        <div class="logo"><a href="../index.html"><img src="../images/profile-pic.gif" alt="profile-pic"></a> </div>
+        <div class="logo"><a aria-label="" href="../index.html"><img src="../images/profile-pic.gif"
+                    alt="profile-pic"></a> </div>
         <div class="links">
             <div>
-                <a href="../pages/about.html">About Me</a>
+                <a aria-label="About Me page" href="../pages/about.html">About Me</a>
             </div>
             <div>
-                <a href="../pages/experience.html">Experience</a>
+                <a aria-label="Experience" href="../pages/experience.html">Experience</a>
             </div>
             <div>
-                <a href="../pages/contact.html">Contact Me</a>
+                <a aria-label="contact me!" href="../pages/contact.html">Contact Me</a>
             </div>
         </div>
         <div class="extras">
             <div class="theme">
-                <button class="theme" onclick="theme()"><img src="../images/themes.png" alt="theme mode"></button>
+                <button name="theme-color" class="theme" onclick="theme()"><img src="../images/themes.png"
+                        alt="theme mode"></button>
             </div>
             <div class="resume">
-                <a class="button-2" href="https://www.manasjha.me/mjresume.pdf" target="_blank">Resume</a>
+                <a aria-label="Check out manas jha's resume" class="button-2"
+                    href="https://www.manasjha.me/mjresume.pdf" target="_blank">Resume</a>
             </div>
         </div>
     </nav>
 
-    <a class="btt-btn" href="#contact"><img src="../images/back-to-top.png"></a>
+    <a aria-label="back to top button" class="btt-btn" href="#contact"><img alt="image"
+            src="../images/back-to-top.png"></a>
 
     <section id="contact">
         <h1>Contact Me!</h1>
         <div class="contact">
-            <div class="social">
-                <div><img src="../images/socials/contact-icons/gmail.png"></div>
-                <div style="text-align: left; width: 50%;"><a target="_blank"
-                        href="mailto:jhamanas939@gmail.com">Gmail</a></div>
-            </div>
-            <div class="social">
-                <div><img src="../images/socials/contact-icons/linkedin.png"></div>
-                <div style="text-align: left; width: 50%;"><a target="_blank"
-                        href="https://www.linkedin.com/in/notmanasjha/">LinkedIn</a></div>
-            </div>
-            <div class="social">
-                <div><img src="../images/socials/contact-icons/twitter.png"></div>
-                <div style="text-align: left; width: 50%;"><a target="_blank"
-                        href="https://twitter.com/ManasJhaMJ">Twitter/X</a></div>
-            </div>
-            <div class="social">
-                <div><img src="../images/socials/contact-icons/github.png"></div>
-                <div style="text-align: left; width: 50%;"><a target="_blank"
-                        href="https://github.com/ManasJhaMJ">Github</a></div>
-            </div>
-            <div class="social">
-                <div><img src="../images/socials/contact-icons/discord.png"></div>
-                <div style="text-align: left; width: 50%;"><a target="_blank"
-                        href="https://discord.com/users/916896085212033024">Discord</a></div>
-            </div>
-            <div class="social">
-                <div><img src="../images/socials/contact-icons/insta.png"></div>
-                <div style="text-align: left; width: 50%;"><a target="_blank"
-                        href="https://www.instagram.com/notmanasjha/">Instagram</a></div>
-            </div>
-            <div class="social">
-                <div><img src="../images/socials/contact-icons/itchio.png"></div>
-                <div style="text-align: left; width: 50%;"><a target="_blank"
-                        href="https://manas-mj.itch.io/">Itch.io</a></div>
-            </div>
-            <div class="social">
-                <div><img src="../images/socials/contact-icons/behance.png"></div>
-                <div style="text-align: left; width: 50%;"><a target="_blank"
-                        href="https://www.behance.net/notmanasjha">Behance</a>
-                </div>
-            </div>
-            <div class="social">
-                <div><img src="../images/socials/contact-icons/youtube.png"></div>
-                <div style="text-align: left; width: 50%;"><a target="_blank"
-                        href="https://www.youtube.com/@manasmj">Youtube</a></div>
-            </div>
-            <!-- <div class="social">
+            <span class="contact-grp">
+                <a target="_blank" href="mailto:jhamanas939@gmail.com">
+                    <div class="social">
+                        <div><img src="../images/socials/contact-icons/gmail.png"></div>
+                        <div style="text-align: left; width: 50%;">Gmail</div>
+                    </div>
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/notmanasjha/">
+                    <div class="social">
+                        <div><img src="../images/socials/contact-icons/linkedin.png"></div>
+                        <div style="text-align: left; width: 50%;">LinkedIn</div>
+                    </div>
+                </a>
+                <a target="_blank" href="https://twitter.com/ManasJhaMJ">
+                    <div class="social">
+                        <div><img src="../images/socials/contact-icons/twitter.png"></div>
+                        <div style="text-align: left; width: 50%;">Twitter/X</div>
+                    </div>
+                </a>
+            </span>
+            <span class="contact-grp">
+                <a target="_blank" href="https://github.com/ManasJhaMJ">
+                    <div class="social">
+                        <div><img src="../images/socials/contact-icons/github.png"></div>
+                        <div style="text-align: left; width: 50%;">Github</div>
+                    </div>
+                </a>
+                <a target="_blank" href="https://discord.com/users/916896085212033024">
+                    <div class="social">
+                        <div><img src="../images/socials/contact-icons/discord.png"></div>
+                        <div style="text-align: left; width: 50%;">Discord</div>
+                    </div>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/notmanasjha/">
+                    <div class="social">
+                        <div><img src="../images/socials/contact-icons/insta.png"></div>
+                        <div style="text-align: left; width: 50%;">Instagram</div>
+                    </div>
+                </a>
+            </span>
+            <span class="contact-grp">
+                <a target="_blank" href="https://manas-mj.itch.io/">
+                    <div class="social">
+                        <div><img src="../images/socials/contact-icons/itchio.png"></div>
+                        <div style="text-align: left; width: 50%;">Itch.io</div>
+                    </div>
+                </a>
+                <a target="_blank" href="https://www.behance.net/notmanasjha">
+                    <div class="social">
+                        <div><img src="../images/socials/contact-icons/behance.png"></div>
+                        <div style="text-align: left; width: 50%;">Behance</div>
+                    </div>
+                </a>
+                <a target="_blank" href="https://www.youtube.com/@manasmj">
+                    <div class="social">
+                        <div><img src="../images/socials/contact-icons/youtube.png"></div>
+                        <div style="text-align: left; width: 50%;">Youtube
+                </a>
+            </span>
+        </div>
+        <!-- <div class="social">
                 <div></div>
                 <div><a href="https://devfolio.co/@manasjhamj">Devfolio</a></div>
             </div> -->
@@ -146,13 +166,16 @@
     <footer>
         <p> Manas Jha | ©2024</p>
         <div class="footer-socials">
-            <a href="mailto:jhamanas939@gmail.com" target="_blank"><img src="../images/socials/email.png"></a>
-            <a href="https://www.linkedin.com/in/notmanasjha/" target="_blank"><img
-                    src="../images/socials/linkedin.png"></a>
-            <a href="https://github.com/ManasJhaMJ" target="_blank"><img src="../images/socials/github.png"></a>
-            <a href="https://twitter.com/ManasJhaMJ" target="_blank"><img src="../images/socials/twitter.png"></a>
-            <a href="https://discord.com/users/916896085212033024" target="_blank"><img
-                    src="../images/socials/discord.png"></a>
+            <a aria-label="link to social mail" href="mailto:jhamanas939@gmail.com" target="_blank"><img alt="image"
+                    src="../images/socials/email.png"></a>
+            <a aria-label="link to social linkedin" href="https://www.linkedin.com/in/notmanasjha/" target="_blank"><img
+                    alt="image" src="../images/socials/linkedin.png"></a>
+            <a aria-label="link to social github" href="https://github.com/ManasJhaMJ" target="_blank"><img alt="image"
+                    src="../images/socials/github.png"></a>
+            <a aria-label="link to social twitter" href="https://twitter.com/ManasJhaMJ" target="_blank"><img
+                    alt="image" src="../images/socials/twitter.png"></a>
+            <a aria-label="link to social discord" href="https://discord.com/users/916896085212033024"
+                target="_blank"><img alt="image" src="../images/socials/discord.png"></a>
         </div>
     </footer>
 

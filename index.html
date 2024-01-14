@@ -51,48 +51,52 @@
         <!-- <div class="logo"><img src="./images/profile-pic.gif" alt="profile-pic"> </div> -->
         <div class="extras">
             <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn"></button>
+                <button name="dropdown" onclick="myFunction()" class="dropbtn"></button>
                 <div id="myDropdown" class="dropdown-content">
-                    <a href="./index.html">Home</a>
-                    <a href="./pages/about.html">About</a>
-                    <a href="./pages/experience.html">Experience</a>
-                    <a href="./projects.html">Projects</a>
-                    <a href="./pages/contact.html">Contact</a>
-                    <a style="margin: 5px 10px;" class="button-3" href="https://www.manasjha.me/mjresume.pdf"
+                    <a aria-label="ho back to home" href="./index.html">Home</a>
+                    <a aria-label="about me page" href="./pages/about.html">About</a>
+                    <a aria-label="experience" href="./pages/experience.html">Experience</a>
+                    <a aria-label="Projects" href="./index.html#projects">Projects</a>
+                    <a aria-label="contact me!" href="./pages/contact.html">Contact</a>
+                    <a aria-label="Here is Manas Jha's Resume" href="https://www.manasjha.me/mjresume.pdf"
                         target="_blank">Resume</a>
                 </div>
             </div>
         </div>
-        <button class="theme" onclick="theme()"><img src="./images/themes.png" alt="theme mode"></button>
+        <button name="theme-color" class="theme" onclick="theme()"><img src="./images/themes.png"
+                alt="theme mode"></button>
     </nav>
     <nav class="nav-pc">
-        <div class="logo"><a href="./index.html"><img src="./images/profile-pic.gif" alt="profile-pic"></a> </div>
+        <div class="logo"><a aria-label="" href="./index.html"><img src="./images/profile-pic.gif"
+                    alt="profile-pic"></a> </div>
         <div class="links">
             <div>
-                <a href="./pages/about.html">About Me</a>
+                <a aria-label="About Me page" href="./pages/about.html">About Me</a>
             </div>
             <div>
-                <a href="./pages/experience.html">Experience</a>
+                <a aria-label="Experience" href="./pages/experience.html">Experience</a>
             </div>
             <div>
-                <a href="./pages/contact.html">Contact Me</a>
+                <a aria-label="contact me!" href="./pages/contact.html">Contact Me</a>
             </div>
         </div>
         <div class="extras">
             <div class="theme">
-                <button class="theme" onclick="theme()"><img src="./images/themes.png" alt="theme mode"></button>
+                <button name="theme-color" class="theme" onclick="theme()"><img src="./images/themes.png"
+                        alt="theme mode"></button>
             </div>
             <div class="resume">
-                <a class="button-2" href="https://www.manasjha.me/mjresume.pdf" target="_blank">Resume</a>
+                <a aria-label="Check out manas jha's resume" class="button-2"
+                    href="https://www.manasjha.me/mjresume.pdf" target="_blank">Resume</a>
             </div>
         </div>
     </nav>
 
-    <a class="btt-btn" href="#home"><img src="./images/back-to-top.png"></a>
+    <a aria-label="back to top button" class="btt-btn" href="#home"><img alt="image" src="./images/back-to-top.png"></a>
 
     <section id="home">
         <div class="home-img">
-            <img src="./images/landing.png">
+            <img alt="image" src="./images/landing.png">
         </div>
         <div class="home-text">
             <h1>I'm <span class="greentext">Manas Jha</span>, Web <span class="greentext">Developer</span> and <span
@@ -104,8 +108,11 @@
                 <span class="greentext">quality</span>.
             </p>
             <div class="cta-group">
-                <a href="./pages/contact.html"><button class="button-1">Contact Me</button></a>
-                <a href="#projects"><button class="button-2">My Work</button></a>
+                <a aria-label="contact me button" href="./pages/contact.html"><button name="contact me"
+                        class="button-1">Contact
+                        Me</button></a>
+                <a aria-label="My work and projects" href="#projects"><button name="my work/projects"
+                        class="button-2">My Work</button></a>
             </div>
         </div>
     </section>
@@ -120,7 +127,7 @@
         </div>
         <div class="container">
             <div class="container-col">
-                <img src="./images/1.svg">
+                <img alt="image" src="./images/1.svg">
                 <h3>Designing</h3>
                 <p>
                     I design beautiful user interfaces for applications to work on all screen sizes. Your colors,
@@ -128,7 +135,7 @@
                 </p>
             </div>
             <div class="container-col">
-                <img src="./images/2.svg">
+                <img alt="image" src="./images/2.svg">
                 <h3>Development</h3>
                 <p>
                     I create functional, beautiful and responsive frontend applications for the web with modern
@@ -311,7 +318,9 @@
                 <h1>Lets Build Something Together!</h1>
                 <p>Turning ideas into real life products is my calling. Let's do this!</p>
             </div>
-            <a href="./pages/contact.html"><button class="button-3">Connect with Me!</button></a>
+            <a aria-label="contact me" href="./pages/contact.html"><button name="Connect with me!"
+                    class="button-3">Connect with
+                    Me!</button></a>
         </div>
     </div>
 
@@ -320,13 +329,16 @@
     <footer>
         <p> Manas Jha | ©2024</p>
         <div class="footer-socials">
-            <a href="mailto:jhamanas939@gmail.com" target="_blank"><img src="./images/socials/email.png"></a>
-            <a href="https://www.linkedin.com/in/notmanasjha/" target="_blank"><img
-                    src="./images/socials/linkedin.png"></a>
-            <a href="https://github.com/ManasJhaMJ" target="_blank"><img src="./images/socials/github.png"></a>
-            <a href="https://twitter.com/ManasJhaMJ" target="_blank"><img src="./images/socials/twitter.png"></a>
-            <a href="https://discord.com/users/916896085212033024" target="_blank"><img
-                    src="./images/socials/discord.png"></a>
+            <a aria-label="link to social mail" href="mailto:jhamanas939@gmail.com" target="_blank"><img alt="image"
+                    src="./images/socials/email.png"></a>
+            <a aria-label="link to social linkedin" href="https://www.linkedin.com/in/notmanasjha/" target="_blank"><img
+                    alt="image" src="./images/socials/linkedin.png"></a>
+            <a aria-label="link to social github" href="https://github.com/ManasJhaMJ" target="_blank"><img alt="image"
+                    src="./images/socials/github.png"></a>
+            <a aria-label="link to social twitter" href="https://twitter.com/ManasJhaMJ" target="_blank"><img
+                    alt="image" src="./images/socials/twitter.png"></a>
+            <a aria-label="link to social discord" href="https://discord.com/users/916896085212033024"
+                target="_blank"><img alt="image" src="./images/socials/discord.png"></a>
         </div>
     </footer>
 
