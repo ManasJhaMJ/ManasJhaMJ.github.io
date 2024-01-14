@@ -24,15 +24,15 @@ function theme() {
 }
 
 VanillaTilt.init(document.querySelectorAll(".glassmorphic-card"), {
-    max: 12,
-    speed: 200,
+    max: 5,
+    speed: 100,
     glare: true,
     "max-glare": 0.5,
 });
 
 VanillaTilt.init(document.querySelectorAll(".glassmorphic-card-mobile"), {
-    max: 20,
-    speed: 200,
+    max: 5,
+    speed: 100,
     glare: true,
     "max-glare": 0.7,
 });
