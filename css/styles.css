@@ -13,7 +13,7 @@ body {
     background-color: #fff;
     color: black;
     transition: all 0.3s ease-in;
-    background: url(../images/bg-white.png) no-repeat center center fixed;
+    background: url(../images/bg-white.avif) no-repeat center center fixed;
 }
 
 
@@ -21,7 +21,7 @@ body {
     transition: all 0.3s ease-in;
     background-color: #1b202d !important;
     color: #fff !important;
-    background: url(../images/bg.png) no-repeat center center fixed;
+    background: url(../images/bg.avif) no-repeat center center fixed;
 }
 
 a {
@@ -106,7 +106,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../images/dropdown.png) no-repeat center center;
+    background: url(../images/dropdown.avif) no-repeat center center;
 }
 
 .dropbtn img {
