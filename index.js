@@ -36,3 +36,6 @@ VanillaTilt.init(document.querySelectorAll(".glassmorphic-card-mobile"), {
     glare: true,
     "max-glare": 0.7,
 });
+
+ScrollReveal().reveal('.reveal', { delay: 400 });
+ScrollReveal().reveal('.reset', { reset: true });
