@@ -19,7 +19,7 @@ body {
 
 .dark-mode {
     transition: all 0.3s ease-in;
-    background-color: #1b202d !important;
+    background-color: #140439 !important;
     color: #fff !important;
     background: url(../images/bg.avif) no-repeat center center fixed;
 }
