@@ -19,7 +19,7 @@ body {
 
 .dark-mode {
     transition: all 0.3s ease-in;
-    background-color: #1b202d !important;
+    background-color: #140439 !important;
     color: #fff !important;
     background: url(../images/bg.avif) no-repeat center center fixed;
 }
@@ -377,6 +377,47 @@ nav {
     text-align: left;
 }
 
+#about {
+    margin: 120px 2rem;
+    text-align: center;
+    height: 100%;
+    padding: 15px 0px;
+    color: inherit;
+}
+
+#about img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.about-1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.about-12 h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 1.5rem 0 0 0;
+}
+
+.about-11 {
+    width: 100%;
+}
+
+.about-12 {
+    width: 100%;
+    text-align: justify;
+}
+
+.about-2 {
+    text-align: justify;
+}
+
 footer {
     margin: 170px 0 30px 0;
     text-align: center;
@@ -540,6 +581,27 @@ hr {
 
     #contact h1 {
         font-size: 3.5rem;
+    }
+
+    .about-1 {
+        flex-direction: row;
+    }
+
+    .about-12 {
+        width: 50%;
+        padding: 1rem 1rem 2rem 3rem;
+    }
+
+    .about-12 h1 {
+        font-size: 4rem;
+    }
+
+    .about-2 {
+        padding: 5% 20% 2% 20%;
+    }
+
+    .about-11 {
+        width: 30%;
     }
 
     footer {
