@@ -6,6 +6,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body.loading * {
+    transition: none !important;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
