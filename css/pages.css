@@ -94,6 +94,7 @@ nav {
     padding: 1px;
     margin: 0;
     background-color: #fff;
+    border: rgb(160, 74, 163) 2px solid;
 }
 
 /* Dropdown Button */
@@ -407,6 +408,10 @@ nav {
     flex-direction: column;
 }
 
+.bullets p {
+    width: 100%;
+}
+
 .about-12 h1 {
     font-size: 2rem;
     font-weight: 600;
@@ -465,7 +470,7 @@ hr {
 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 788px) {
     .nav-mobile {
         display: none;
     }
@@ -543,9 +548,9 @@ hr {
 
 
     .exp {
-        width: 40%;
+        width: 70%;
+        max-width: 800px;
     }
-
 
     .exp-head,
     .bullets {

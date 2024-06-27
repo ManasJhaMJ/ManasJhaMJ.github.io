@@ -14,16 +14,19 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+.white-mode {
     background-color: #fff;
     color: black;
-    transition: all 0.2s ease-in;
+    transition: all 0.25s ease-in;
     /* background: url(../images/bg-white.avif) no-repeat center center fixed; */
     background-image: linear-gradient(90deg, rgba(178, 253, 238, 0.96) -8.1%, rgba(207, 244, 254, 1) 26.3%, rgba(207, 244, 254, 0.48) 47.5%, rgba(254, 219, 243, 0.63) 61.5%, rgba(254, 219, 243, 1) 78.7%, rgba(254, 207, 210, 1) 109.2%);
 }
 
 
 .dark-mode {
-    transition: all 0.2s ease-in;
+    transition: all 0.25s ease-in;
     background-color: #140439 !important;
     color: #fff !important;
     /* background: url(../images/bg.avif) no-repeat center center fixed; */
@@ -98,6 +101,7 @@ nav {
     padding: 1px;
     margin: 0;
     background-color: #fff;
+    border: rgb(160, 74, 163) 2px solid;
 }
 
 /* Dropdown Button */
@@ -209,25 +213,55 @@ nav {
     padding: 3rem 0rem 60px 0rem;
     margin: 0 2rem;
     text-align: center;
-    height: calc(100vh - 50px);
+    height: calc(100vh);
+    margin-top: 6rem;
+}
+
+.home-img {
+    width: 100%;
 }
 
 #home img {
-    width: 100%;
+    width: 80%;
     height: auto;
-    padding-right: 0.5rem;
+    animation-name: blobby;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+    border: rgb(148, 68, 151) 20px solid;
+}
+
+@keyframes blobby {
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+
 }
 
 .home-text {
     text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 
 .home-text h1 {
     font-size: 2rem;
     font-weight: 700;
     margin: 0;
     padding: 1rem 0;
-    width: 80%;
+    width: 100%;
 }
 
 .home-text p {
@@ -279,7 +313,7 @@ nav {
 #des-dev {
     margin: 3rem 2rem;
     text-align: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .des-dev-text {
@@ -497,7 +531,7 @@ footer {
 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 788px) {
     .nav-mobile {
         display: none;
     }
@@ -553,6 +587,8 @@ footer {
 
     #home {
         flex-direction: row;
+        margin-top: 0rem;
+        padding: 1rem;
     }
 
     .home-img {
@@ -673,7 +709,8 @@ footer {
     }
 
     .skills-bg {
-        width: 40%;
+        width: 100%;
+        max-width: 700px;
         padding: 3rem;
     }
 
@@ -723,10 +760,6 @@ footer {
     }
 
     @media screen and (min-width: 768px) and (max-width : 1024px) {
-        #home {
-            margin-top: 6rem;
-            flex-direction: column;
-        }
 
         .home-img,
         .home-text,
