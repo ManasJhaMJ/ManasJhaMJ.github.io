@@ -12,16 +12,18 @@ body {
     padding: 0;
     background-color: #fff;
     color: black;
-    transition: all 0.3s ease-in;
-    background: url(../images/bg-white.avif) no-repeat center center fixed;
+    transition: all 0.2s ease-in;
+    /* background: url(../images/bg-white.avif) no-repeat center center fixed; */
+    background-image: linear-gradient(90deg, rgba(178, 253, 238, 0.96) -8.1%, rgba(207, 244, 254, 1) 26.3%, rgba(207, 244, 254, 0.48) 47.5%, rgba(254, 219, 243, 0.63) 61.5%, rgba(254, 219, 243, 1) 78.7%, rgba(254, 207, 210, 1) 109.2%);
 }
 
 
 .dark-mode {
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
     background-color: #140439 !important;
     color: #fff !important;
-    background: url(../images/bg.avif) no-repeat center center fixed;
+    /* background: url(../images/bg.avif) no-repeat center center fixed; */
+    background: linear-gradient(to right, #000, #130F40);
 }
 
 a {
@@ -43,6 +45,7 @@ nav {
     top: 0;
     left: 0;
     z-index: 100;
+    font-weight: 600;
 }
 
 .links {
@@ -95,7 +98,7 @@ nav {
 
 /* Dropdown Button */
 .dropbtn {
-    border: #48bb78 2px solid;
+    border: rgb(160, 74, 163) 2px solid;
     background-color: inherit;
     color: white;
     padding: 18px 20px;
@@ -116,7 +119,7 @@ nav {
 /* Dropdown button on hover & focus */
 .dropbtn:hover,
 .dropbtn:focus {
-    border: #48bb78 2px solid;
+    border: rgb(160, 74, 163) 2px solid;
     border-radius: 5px;
 }
 
@@ -125,14 +128,15 @@ nav {
     position: relative;
     display: inline-block;
     border-radius: 5px;
-    border: #48bb78 2px solid;
+    border: rgb(160, 74, 163) 2px solid;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
     position: absolute;
-    background-image: linear-gradient(to top right, #319795, #48bb78);
+    /* background-image: linear-gradient(to top right, rgb(160, 74, 163), rgb(160, 74, 163)); */
+    background-image: linear-gradient(109.6deg, rgb(148, 68, 151) 11.2%, rgb(80, 25, 207) 96.7%);
     min-width: 85vw;
     text-align: center;
     height: auto;
@@ -163,9 +167,11 @@ nav {
 
 .greentext {
     color: inherit;
-    background-image: linear-gradient(to top right, #319795, #48bb78);
+    /* background-image: linear-gradient(to top right, rgb(160, 74, 163), rgb(160, 74, 163)); */
+    background-image: linear-gradient(109.6deg, rgb(148, 68, 151) 11.2%, rgb(80, 25, 207) 96.7%);
     color: transparent;
     background-clip: text;
+    font-weight: 500;
 }
 
 .btt-btn {
@@ -195,7 +201,8 @@ nav {
 
 .button-2 {
     border: none;
-    background-image: linear-gradient(to top right, #319795, #48bb78);
+    /* background-image: linear-gradient(to top right, rgb(160, 74, 163), rgb(160, 74, 163)); */
+    background-image: linear-gradient(109.6deg, rgb(148, 68, 151) 11.2%, rgb(80, 25, 207) 96.7%);
     color: #fff;
     padding: 12px;
     font-size: 18px;
@@ -231,13 +238,14 @@ nav {
     margin: 0px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
-    background-image: linear-gradient(to top right, rgba(49, 151, 149, 0.4), rgba(72, 187, 120, 0.4));
+    /* background-image: linear-gradient(to top right, rgba(49, 151, 149, 0.4), rgba(72, 187, 120, 0.4)); */
+    background-image: linear-gradient(109.6deg, rgba(148, 68, 151, 0.568) 11.2%, rgba(80, 25, 207, 0.658) 96.7%);
     backdrop-filter: blur(5px);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: #319795 1px solid;
+    border: rgb(160, 74, 163) 1px solid;
 }
 
 #experience {
@@ -350,10 +358,11 @@ nav {
     justify-content: space-around;
     align-items: center;
     width: 150px;
-    /* background-image: linear-gradient(to top right, #319795, #48bb78); */
-    background-image: linear-gradient(to top right, rgba(49, 151, 149, 0.4), rgba(72, 187, 120, 0.4));
+    /* background-image: linear-gradient(to top right, rgb(160, 74, 163), rgb(160, 74, 163)); */
+    /* background-image: linear-gradient(to top right, rgba(49, 151, 149, 0.4), rgba(72, 187, 120, 0.4)); */
+    background-image: linear-gradient(109.6deg, rgb(148, 68, 151) 11.2%, rgb(80, 25, 207) 96.7%);
     backdrop-filter: blur(5px);
-    border: #319795 1px solid;
+    border: rgb(160, 74, 163) 1px solid;
     border-radius: 15px;
     padding: 5px 10px;
     margin: 10px 0;
@@ -362,7 +371,7 @@ nav {
 
 .social:hover {
     transform: translate3d(-5px, -5px, 0);
-    box-shadow: 10px 10px 20px #48bb78;
+    box-shadow: 10px 10px 20px rgb(160, 74, 163);
 }
 
 .social img {
@@ -429,7 +438,7 @@ footer {
 
 hr {
     width: 100%;
-    border: 1px solid #48bb78;
+    border: 1px solid rgb(160, 74, 163);
 }
 
 .footer-socials {
@@ -444,7 +453,8 @@ hr {
     margin: 0 10px;
     padding: 10px;
     border-radius: 10px;
-    background: linear-gradient(to top right, #319795, #48bb78);
+    /* background: linear-gradient(to top right, rgb(160, 74, 163), rgb(160, 74, 163)); */
+    background-image: linear-gradient(109.6deg, rgb(148, 68, 151) 11.2%, rgb(80, 25, 207) 96.7%);
     transition: all 0.2s ease-in-out;
     opacity: 0.9;
 }
@@ -477,12 +487,12 @@ hr {
 
     .links a {
         margin: 0 1.5rem;
-        border-bottom: #48bb78 0px solid;
+        border-bottom: rgb(160, 74, 163) 0px solid;
     }
 
     .links a:hover {
-        border-bottom: #48bb78 1px solid;
-        color: #48bb78;
+        border-bottom: rgb(160, 74, 163) 1px solid;
+        color: rgb(160, 74, 163);
         transition: all 0.2s ease-in-out;
     }
 

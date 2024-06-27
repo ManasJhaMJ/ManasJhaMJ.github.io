@@ -16,16 +16,18 @@ body {
     padding: 0;
     background-color: #fff;
     color: black;
-    transition: all 0.3s ease-in;
-    background: url(../images/bg-white.avif) no-repeat center center fixed;
+    transition: all 0.2s ease-in;
+    /* background: url(../images/bg-white.avif) no-repeat center center fixed; */
+    background-image: linear-gradient(90deg, rgba(178, 253, 238, 0.96) -8.1%, rgba(207, 244, 254, 1) 26.3%, rgba(207, 244, 254, 0.48) 47.5%, rgba(254, 219, 243, 0.63) 61.5%, rgba(254, 219, 243, 1) 78.7%, rgba(254, 207, 210, 1) 109.2%);
 }
 
 
 .dark-mode {
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
     background-color: #140439 !important;
     color: #fff !important;
-    background: url(../images/bg.avif) no-repeat center center fixed;
+    /* background: url(../images/bg.avif) no-repeat center center fixed; */
+    background: linear-gradient(to right, #000, #130F40);
 }
 
 a {
@@ -47,6 +49,7 @@ nav {
     top: 0;
     left: 0;
     z-index: 100;
+    font-weight: 600;
 }
 
 .links {
@@ -99,7 +102,7 @@ nav {
 
 /* Dropdown Button */
 .dropbtn {
-    border: #48bb78 2px solid;
+    border: rgb(160, 74, 163) 2px solid;
     background-color: inherit;
     color: white;
     padding: 18px 20px;
@@ -120,7 +123,7 @@ nav {
 /* Dropdown button on hover & focus */
 .dropbtn:hover,
 .dropbtn:focus {
-    border: #48bb78 2px solid;
+    border: rgb(160, 74, 163) 2px solid;
     border-radius: 5px;
 }
 
@@ -129,14 +132,14 @@ nav {
     position: relative;
     display: inline-block;
     border-radius: 5px;
-    border: #48bb78 2px solid;
+    border: rgb(160, 74, 163) 2px solid;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
     position: absolute;
-    background-image: linear-gradient(to top right, #319795, #48bb78);
+    background-image: linear-gradient(109.6deg, rgb(148, 68, 151) 11.2%, rgb(80, 25, 207) 96.7%);
     min-width: 85vw;
     text-align: center;
     height: auto;
@@ -167,7 +170,8 @@ nav {
 
 .greentext {
     color: inherit;
-    background-image: linear-gradient(to top right, #319795, #48bb78);
+    /* background-image: linear-gradient(to top right, #319795, rgb(160, 74, 163)); */
+    background-image: linear-gradient(109.6deg, rgb(148, 68, 151) 11.2%, rgb(80, 25, 207) 96.7%);
     color: transparent;
     background-clip: text;
 }
@@ -212,7 +216,6 @@ nav {
     width: 100%;
     height: auto;
     padding-right: 0.5rem;
-    border: #48bb78 1px solid;
 }
 
 .home-text {
@@ -244,9 +247,9 @@ nav {
 }
 
 .button-1 {
-    border: #2C7A7B 2px solid;
+    border: rgb(160, 74, 163) 2px solid;
     background-color: transparent;
-    color: #2C7A7B;
+    color: rgb(160, 74, 163);
     padding: 10px;
     font-size: 18px;
     font-weight: 900;
@@ -259,7 +262,8 @@ nav {
 
 .button-2 {
     border: none;
-    background-image: linear-gradient(to top right, #319795, #48bb78);
+    /* background-image: linear-gradient(to top right, #319795, rgb(160, 74, 163)); */
+    background-image: linear-gradient(109.6deg, rgb(160, 74, 163) 11.2%, rgba(87, 27, 226, 1) 96.7%);
     color: #fff;
     padding: 12px;
     font-size: 18px;
@@ -340,7 +344,8 @@ nav {
 }
 
 .skills-bg {
-    background-image: linear-gradient(to top right, #319795, #48bb78);
+    /* background-image: linear-gradient(to top right, #319795, rgb(160, 74, 163)); */
+    background-image: linear-gradient(109.6deg, rgb(148, 68, 151) 11.2%, rgb(80, 25, 207) 96.7%);
     border-radius: 10px;
     width: calc(auto - 2rem);
     padding: 1rem;
@@ -453,7 +458,8 @@ nav {
 .skill-container p {
     margin: 2px 5px;
     padding: 2px 7px;
-    background-image: linear-gradient(to top right, #319795, #48bb78);
+    /* background-image: linear-gradient(to top right, #319795, rgb(160, 74, 163)); */
+    background-image: linear-gradient(109.6deg, rgb(148, 68, 151) 11.2%, rgb(80, 25, 207) 96.7%);
     border-radius: 8px;
     color: white;
 }
@@ -479,7 +485,8 @@ footer {
     margin: 0 10px;
     padding: 10px;
     border-radius: 10px;
-    background: linear-gradient(to top right, #319795, #48bb78);
+    /* background: linear-gradient(to top right, #319795, rgb(160, 74, 163)); */
+    background-image: linear-gradient(109.6deg, rgb(148, 68, 151) 11.2%, rgb(80, 25, 207) 96.7%);
     transition: all 0.2s ease-in-out;
     opacity: 0.9;
 }
@@ -512,12 +519,12 @@ footer {
 
     .links a {
         margin: 0 1.5rem;
-        border-bottom: #48bb78 0px solid;
+        border-bottom: rgb(160, 74, 163) 0px solid;
     }
 
     .links a:hover {
-        border-bottom: #48bb78 1px solid;
-        color: #48bb78;
+        border-bottom: rgb(160, 74, 163) 1px solid;
+        color: rgb(160, 74, 163);
         transition: all 0.2s ease-in-out;
     }
 
@@ -580,7 +587,8 @@ footer {
     }
 
     .button-1:hover {
-        background-image: linear-gradient(to top right, #319795, #48bb78);
+        /* background-image: linear-gradient(to top right, #319795, rgb(160, 74, 163)); */
+        background-image: linear-gradient(109.6deg, rgb(148, 68, 151) 11.2%, rgb(80, 25, 207) 96.7%);
         color: #fff;
     }
 
