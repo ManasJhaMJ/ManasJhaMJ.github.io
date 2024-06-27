@@ -269,7 +269,8 @@ nav {
     font-weight: 400;
     margin: 0;
     padding-bottom: 2.5rem;
-    width: 90%;
+    width: 100%;
+    text-align: justify;
 }
 
 .cta-group {
@@ -600,6 +601,7 @@ footer {
     .home-text {
         text-align: left;
         width: 40%;
+        align-items: flex-start;
     }
 
     .home-text h1 {
@@ -758,31 +760,35 @@ footer {
     footer {
         flex-direction: row;
     }
+}
 
-    @media screen and (min-width: 768px) and (max-width : 1024px) {
+@media screen and (min-width: 768px) and (max-width : 1024px) {
 
-        .home-img,
-        .home-text,
-        .home-text p,
-        .cta-group {
-            width: 100%;
-            height: auto;
-            margin: 0;
-            text-align: center;
-            justify-content: center;
-        }
+    .home-img,
+    .home-text,
+    .home-text p,
+    .cta-group {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        text-align: left;
+        justify-content: center;
+    }
 
-        #projects {
-            margin: 100px 2rem;
-        }
+    .home-text p {
+        text-align: justify;
+    }
 
-        .projects {
-            justify-content: center;
-        }
+    #projects {
+        margin: 100px 2rem;
+    }
 
-        .card-big {
-            width: 40%;
-            height: auto;
-        }
+    .projects {
+        justify-content: center;
+    }
+
+    .card-big {
+        width: 40%;
+        height: auto;
     }
 }
