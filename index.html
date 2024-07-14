@@ -58,8 +58,7 @@
                     <a aria-label="experience" href="./pages/experience.html">Experience</a>
                     <a aria-label="Projects" href="./index.html#projects">Projects</a>
                     <a aria-label="contact me!" href="./pages/contact.html">Contact</a>
-                    <a aria-label="Here is Manas Jha's Resume" href="https://www.manasjha.me/mjresume.pdf"
-                        target="_blank">Resume</a>
+                    <a aria-label="Here is Manas Jha's Resume" href="./manas_jha_resume.pdf" target="_blank">Resume</a>
                 </div>
             </div>
         </div>
@@ -70,6 +69,9 @@
         <div class="logo"><a aria-label="" href="./index.html"><img src="./images/profile-pic.gif"
                     alt="profile-pic"></a> </div>
         <div class="links">
+            <div>
+                <a aria-label="" href="./index.html">Home</a>
+            </div>
             <div>
                 <a aria-label="About Me page" href="./pages/about.html">About Me</a>
             </div>
@@ -86,7 +88,7 @@
                         alt="theme mode"></button>
             </div>
             <div class="resume">
-                <a aria-label="Check out manas jha's resume" class="button-2"
+                <a aria-label="Check out manas jha's resume" class="button-2 resume-btn"
                     href="https://www.manasjha.me/mjresume.pdf" target="_blank">Resume</a>
             </div>
         </div>
@@ -145,55 +147,90 @@
         </div>
     </section>
 
-    <section id="skills" class="reveal reset">
+    <section id="skills" class="reveal">
         <h1>Skills</h1>
         <hr>
         <p>Here are a few technologies I've been working with recently:</p>
         <div class="skills-bg glassmorphic-card">
-            <div class="card reveal reset">
+            <div class="card reveal">
                 <img src="./images/icons/html.svg" alt="html5">
+                <h2>HTML</h2>
             </div>
-            <div class="card reveal reset">
+            <div class="card reveal">
                 <img src="./images/icons/css.svg" alt="css">
+                <h2>CSS</h2>
             </div>
-            <div class="card reveal reset">
+            <div class="card reveal">
                 <img src="./images/icons/js.svg" alt="javascript">
+                <h2>JavaScript</h2>
             </div>
-            <div class="card reveal reset">
-                <img src="./images/icons/jquery.svg" alt="jquery">
-            </div>
-            <div class="card reveal reset">
-                <img src="./images/icons/tailwind.svg" alt="tailwind">
-            </div>
-            <div class="card reveal reset">
+            <div class="card reveal">
                 <img src="./images/icons/bootstrap.svg" alt="bootstrap">
+                <h2>Bootstrap</h2>
             </div>
-            <div class="card reveal reset">
-                <img src="./images/icons/react.svg" alt="react">
+            <div class="card reveal">
+                <img src="./images/icons/mongo.svg" alt="MongoDB">
+                <h2>MongoDB</h2>
             </div>
-            <div class="card reveal reset">
-                <img src="./images/icons/nodejs.svg" alt="nodejs">
-            </div>
-            <div class="card reveal reset">
-                <img src="./images/icons/git.svg" alt="git">
-            </div>
-            <div class="card reveal reset">
+            <div class="card reveal">
                 <img src="./images/icons/express.svg" alt="express">
+                <h2>Express</h2>
             </div>
-            <div class="card reveal reset">
-                <img src="./images/icons/postgre.svg" alt="postgreSQL">
+            <div class="card reveal">
+                <img src="./images/icons/react.svg" alt="react">
+                <h2>React</h2>
             </div>
-            <div class="card reveal reset">
+            <div class="card reveal">
+                <img src="./images/icons/nodejs.svg" alt="nodejs">
+                <h2>NodeJs</h2>
+            </div>
+            <div class="card reveal">
+                <img src="./images/icons/shopify.svg" alt="shopify">
+                <h2>Shopify</h2>
+            </div>
+            <div class="card reveal">
+                <img src="./images/icons/liquid.svg" alt="liquid">
+                <h2>Liquid</h2>
+            </div>
+            <div class="card reveal">
+                <img src="./images/icons/wordpress.svg" alt="wordpress">
+                <h2>Wordpress</h2>
+            </div>
+            <div class="card reveal">
+                <img src="./images/icons/wix.svg" alt="Wix">
+                <h2>Wix</h2>
+            </div>
+            <div class="card reveal">
+                <img src="./images/icons/tailwind.svg" alt="tailwind">
+                <h2>Tailwind</h2>
+            </div>
+            <div class="card reveal">
                 <img src="./images/icons/sass.svg" alt="SASS">
+                <h2>SASS</h2>
             </div>
-            <div class="card reveal reset">
-                <img src="./images/icons/canva.svg" alt="Canva">
+            <div class="card reveal">
+                <img src="./images/icons/git.svg" alt="git">
+                <h2>Git</h2>
             </div>
-            <div class="card reveal reset">
-                <img src="./images/icons/figma.svg" alt="Figma">
+            <div class="card reveal">
+                <img src="./images/icons/github.svg" alt="github">
+                <h2>GitHub</h2>
             </div>
-            <div class="card reveal reset">
+            <div class="card reveal">
+                <img src="./images/icons/npm.svg" alt="npm">
+                <h2>npm</h2>
+            </div>
+            <div class="card reveal">
                 <img src="./images/icons/unity.svg" alt="Unity">
+                <h2>Unity</h2>
+            </div>
+            <div class="card reveal">
+                <img src="./images/icons/figma.svg" alt="Figma">
+                <h2>Figma</h2>
+            </div>
+            <div class="card reveal">
+                <img src="./images/icons/canva.svg" alt="Canva">
+                <h2>Canva</h2>
             </div>
         </div>
     </section>
@@ -204,18 +241,17 @@
         <hr>
         <p>Here are a few projects I've been working on recently:</p>
         <div class="projects reveal">
-            <div class="card-big glassmorphic-card-mobile reveal reset">
+            <div class="card-big glassmorphic-card-mobile reveal">
                 <img src="./images/projects/dopegang.png" alt="">
                 <div class="skill-container">
                     <p>scss</p>
-                    <p>js</p>
                     <p>react</p>
                     <p>nodejs</p>
                     <p>express</p>
-                    <p>e-commerce</p>
+                    <p>e-comm</p>
                 </div>
             </div>
-            <div class="card-big glassmorphic-card-mobile reveal reset">
+            <div class="card-big glassmorphic-card-mobile reveal">
                 <img src="./images/projects/enstruments.png" alt="">
                 <div class="skill-container">
                     <p>html</p>
@@ -224,7 +260,7 @@
                     <p>hackathon</p>
                 </div>
             </div>
-            <div class="card-big glassmorphic-card-mobile reveal reset">
+            <div class="card-big glassmorphic-card-mobile reveal">
                 <img src="./images/projects/glass-effect.png" alt="">
                 <div class="skill-container">
                     <p>html</p>
@@ -233,7 +269,7 @@
                     <p>portfolio</p>
                 </div>
             </div>
-            <div class="card-big glassmorphic-card-mobile reveal reset">
+            <div class="card-big glassmorphic-card-mobile reveal">
                 <img src="./images/projects/mjportfolio.png" alt="">
                 <div class="skill-container">
                     <p>html</p>
@@ -243,7 +279,7 @@
                     <p>portfolio</p>
                 </div>
             </div>
-            <div class="card-big glassmorphic-card-mobile reveal reset">
+            <div class="card-big glassmorphic-card-mobile reveal">
                 <img src="./images/projects/justiceGPT.png" alt="">
                 <div class="skill-container">
                     <p>html</p>
@@ -254,7 +290,7 @@
                     <p>hackathon</p>
                 </div>
             </div>
-            <div class="card-big glassmorphic-card-mobile reveal reset">
+            <div class="card-big glassmorphic-card-mobile reveal">
                 <img src="./images/projects/npes.png" alt="">
                 <div class="skill-container">
                     <p>html</p>
@@ -263,7 +299,7 @@
                     <p>company</p>
                 </div>
             </div>
-            <div class="card-big glassmorphic-card-mobile reveal reset">
+            <div class="card-big glassmorphic-card-mobile reveal">
                 <img src="./images/projects/portfoliov4.png" alt="">
                 <div class="skill-container">
                     <p>html</p>
@@ -272,7 +308,7 @@
                     <p>portfolio</p>
                 </div>
             </div>
-            <div class="card-big glassmorphic-card-mobile reveal reset">
+            <div class="card-big glassmorphic-card-mobile reveal">
                 <img src="./images/projects/tastyburgers.png" alt="">
                 <div class="skill-container">
                     <p>html</p>
@@ -281,7 +317,7 @@
                     <p>Hotel</p>
                 </div>
             </div>
-            <div class="card-big glassmorphic-card-mobile reveal reset">
+            <div class="card-big glassmorphic-card-mobile reveal">
                 <img src="./images/projects/mrsdc.png" alt="">
                 <div class="skill-container">
                     <p>html</p>
@@ -290,7 +326,7 @@
                     <p>community</p>
                 </div>
             </div>
-            <div class="card-big glassmorphic-card-mobile reveal reset">
+            <div class="card-big glassmorphic-card-mobile reveal">
                 <img src="./images/projects/pixelcode.png" alt="">
                 <div class="skill-container">
                     <p>html</p>
@@ -299,7 +335,7 @@
                     <p>community</p>
                 </div>
             </div>
-            <div class="card-big glassmorphic-card-mobile reveal reset">
+            <div class="card-big glassmorphic-card-mobile reveal">
                 <img src="./images/projects/windowsXP.png" alt="">
                 <div class="skill-container">
                     <p>html</p>
@@ -312,7 +348,7 @@
         </div>
     </section>
 
-    <div class="work-container reveal reset">
+    <div class="work-container reveal">
         <div class="work">
             <div>
                 <h1>Lets Build Something Together!</h1>

@@ -70,6 +70,7 @@ nav {
     height: 60px;
     border-radius: 50%;
     overflow: hidden;
+    transition: 0.5s ease;
 
 }
 
@@ -487,7 +488,7 @@ hr {
         justify-content: space-between;
         align-items: center;
         width: auto;
-        margin-left: 200px;
+        margin-left: 150px;
     }
 
     .links a {

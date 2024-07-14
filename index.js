@@ -38,4 +38,22 @@ VanillaTilt.init(document.querySelectorAll(".glassmorphic-card-mobile"), {
 });
 
 ScrollReveal().reveal('.reveal', { delay: 400 });
-ScrollReveal().reveal('.reset', { reset: true });
+
+function scrollFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.querySelector("nav").style.padding = "0.5rem 0rem";
+        document.querySelector(".logo").style.height = "40px";
+        document.querySelector(".logo").style.width = "40px";
+        document.querySelector(".resume-btn").style.padding = "8px 12px";
+        document.querySelector(".resume-btn").style.fontSize = "13px";
+
+    } else {
+        document.querySelector("nav").style.padding = "0.2rem 0rem";
+        document.querySelector(".logo").style.height = "60px";
+        document.querySelector(".logo").style.width = "60px";
+        document.querySelector(".resume-btn").style.padding = "12px";
+        document.querySelector(".resume-btn").style.fontSize = "16px";
+    }
+}
+
+window.onscroll = function () { scrollFunction() };
