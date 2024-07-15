@@ -366,12 +366,12 @@ nav {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    color: white !important;
+    color: rgb(182, 182, 182) !important;
     align-items: center;
 }
 
 .card h2 {
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 #skills {
