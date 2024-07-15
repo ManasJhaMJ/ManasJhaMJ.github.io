@@ -17,7 +17,7 @@ body {
 }
 
 .white-mode {
-    background-color: #fff;
+    background-color: #fed3dd;
     color: black;
     transition: all 0.25s ease-in;
     /* background: url(../images/bg-white.avif) no-repeat center center fixed; */
@@ -102,7 +102,6 @@ nav {
     padding: 1px;
     margin: 0;
     background-color: #fff;
-    border: rgb(160, 74, 163) 2px solid;
 }
 
 /* Dropdown Button */
@@ -366,7 +365,7 @@ nav {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    color: rgb(182, 182, 182) !important;
+    color: rgb(219, 219, 219) !important;
     align-items: center;
 }
 
@@ -794,4 +793,21 @@ footer {
         width: 40%;
         height: auto;
     }
+}
+
+/* Add custom scrollbar styles */
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(160, 74, 163);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(148, 68, 151);
 }
